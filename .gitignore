@@ -6,6 +6,18 @@ __pycache__/
 # C extensions
 *.so
 
+# Exclude Raw Data
+data/raw/*.json
+
+# Exclude processed data
+data/processed/*.csv
+data/processed/*.json
+
+# Exclude models
+models/*.h5
+models/*.pkl
+
+
 # Distribution / packaging
 .Python
 build/
